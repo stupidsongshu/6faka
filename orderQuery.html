@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>订单查询</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/query.css">
+</head>
+<body>
+  <div class="header">
+    <div class="nav main-box clearfix">
+      <div class="pull-l logo">
+        <img src="./img/logo.png" alt="">
+      </div>
+      <ul class="pull-r clearfix">
+        <li class="pull-l nav-item">
+          <a href="./index.html">网站首页</a>
+        </li>
+        <li class="pull-l nav-item">
+          <a href="./qualification.html">企业资质</a>
+        </li>
+        <li class="pull-l nav-item">
+          <a href="./problem.html">常见问题</a>
+        </li>
+        <li class="pull-l nav-item">
+          <a href="./contact.html">联系我们</a>
+        </li>
+        <li class="pull-l nav-item">
+          <a href="./orderQuery.html">订单查询</a>
+        </li>
+      </ul>
+    </div>
+    <div class="content main-box clearfix">
+      <div class="pull-l txt">
+        <h1 class="title">全新自动发卡体验</h1>
+        <p class="desc">致力于解决虚拟商品的快捷寄售服务，为商户及其买家提供便捷、绿色、安全、快速的销售和购买体验</p>
+        <div class="btn-groups">
+          <span class="btn btn-normal mr-50">登 录</span>
+          <span class="btn btn-active">注 册</span>
+        </div>
+      </div>
+      <div class="pull-r">
+        <img src="./img/header-r.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <div class="main-titile">
+      <p class="title-en">Order Tracking</p>
+      <p class="title-cn">订单查询</p>
+    </div>
+    <div class="main-box">
+      <div class="query-wrapper box-shadow">
+        <div class="query-condition">
+          <div class="query-item clearfix">
+            <div class="name pull-l">订单编号</div>
+            <input class="input pull-r" type="text">
+          </div>
+          <div class="query-item clearfix">
+            <div class="name pull-l">联系方式</div>
+            <input class="input pull-r" type="text" placeholder="请输入您的手机号">
+          </div>
+          <div class="align-center">
+            <div class="btn btn-active btn-query" id="j-query">查询卡密</div>
+          </div>
+          <div class="align-center">
+            <a href="./complain.html" class="hint">如需投诉请点我</a>
+          </div>
+        </div>
+
+        <div class="query-result">
+          <div class="query-item clearfix">
+            <div class="name pull-l">订单编号:</div>
+            <div class="value pull-l">6512645326451</div>
+          </div>
+          <div class="query-item clearfix">
+            <div class="name pull-l">订单时间:</div>
+            <div class="value pull-l">2018-09-19 22:00:00</div>
+          </div>
+          <div class="query-item clearfix">
+            <div class="name pull-l">订单金额:</div>
+            <div class="value pull-l">100</div>
+          </div>
+          <div class="query-item clearfix">
+            <div class="name pull-l">支付金额:</div>
+            <div class="value pull-l">100</div>
+          </div>
+          <div class="query-item clearfix">
+            <div class="name pull-l">订单时间:</div>
+            <div class="value pull-l">
+              <ul class="kami-list">
+                <li>卡号6512645326451 卡密561236</li>
+                <li>卡号6512645326451 卡密561236</li>
+                <li>卡号6512645326451 卡密561236</li>
+              </ul>
+            </div>
+          </div>
+          <div class="query-item clearfix">
+            <div class="name pull-l">订单状态:</div>
+            <div class="value pull-l">完成付款订单完成</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">备案号</div>
+
+  <script src="./js/jquery.min.js"></script>
+  <script>
+    function query() {
+      $('.query-condition').hide().siblings('.query-result').show();
+    }
+    $('#j-query').on('click', function() {
+      query();
+    });
+  </script>
+</body>
+</html>

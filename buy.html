@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>购买</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/buy.css">
+</head>
+<body class="special">
+  <div class="header">
+    <div class="nav main-box clearfix">
+      <div class="pull-l logo">
+        <img src="./img/logo.png" alt="">
+      </div>
+      <ul class="pull-r clearfix">
+        <li class="pull-l nav-item">
+          <a href="./index.html">网站首页</a>
+        </li>
+        <li class="pull-l nav-item">
+          <a href="./qualification.html">企业资质</a>
+        </li>
+        <li class="pull-l nav-item">
+          <a href="./problem.html">常见问题</a>
+        </li>
+        <li class="pull-l nav-item">
+          <a href="./contact.html">联系我们</a>
+        </li>
+        <li class="pull-l nav-item">
+          <a href="./orderQuery.html">订单查询</a>
+        </li>
+      </ul>
+    </div>
+    <div class="content main-box clearfix">
+      <div class="pull-l txt">
+        <h1 class="title">全新自动发卡体验</h1>
+        <p class="desc">1.选择商品...</p>
+        <p class="desc">2.选择付款方式...</p>
+        <p class="desc">3.确认订单...</p>
+      </div>
+      <div class="pull-r">
+        <img src="./img/header-r.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <div class="main-box">
+      <div class="wrapper box-shadow">
+        <p class="top-title">商家公告</p>
+        <div class="section step1 clearfix">
+          <h2 class="section-title">
+            <span class="num">01</span>选择商品
+          </h2>
+          <div class="form-group pull-l">
+            <div class="form-item clearfix">
+              <div class="left pull-l">商品分类</div>
+              <div class="right pull-r">
+                <select class="form-control">
+                  <option value="">请选择商品分类</option>
+                  <option value="0">hello</option>
+                  <option value="1">world</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-item clearfix">
+              <div class="left pull-l">商品名称</div>
+              <div class="right pull-r">
+                <select class="form-control">
+                  <option value="">请选择商品名称</option>
+                  <option value="0">hello</option>
+                  <option value="1">world</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-item clearfix">
+              <div class="left pull-l">商品单价</div>
+              <div class="right pull-r theme-txt-color">100元</div>
+            </div>
+            <div class="form-item clearfix">
+              <div class="left pull-l">优惠活动</div>
+              <div class="right pull-r theme-txt-color">暂无优惠活动</div>
+            </div>
+            <div class="form-item clearfix">
+              <div class="left pull-l">商品数量</div>
+              <div class="right pull-r">
+                <div class="number-ctrl clearfix">
+                  <span class="btn-number btn-decrease pull-l" id="j-decrease"></span>
+                  <input class="form-control pull-l" id="j-formNumber" type="number" value="1">
+                  <span class="btn-number btn-increase pull-l" id="j-increase"></span>
+                </div>
+              </div>
+            </div>
+            <div class="form-item clearfix">
+              <div class="left pull-l">商品库存</div>
+              <div class="right pull-r theme-txt-color">25个</div>
+            </div>
+            <div class="form-item clearfix">
+              <div class="left pull-l">商品说明</div>
+              <div class="right pull-r theme-txt-color">吧啦吧啦吧啦吧啦吧啦吧啦吧啦吧啦吧啦吧啦吧啦吧啦吧啦吧啦吧啦吧啦</div>
+            </div>
+            <div class="form-item clearfix">
+              <div class="left pull-l">联系方式</div>
+              <div class="right pull-r theme-txt-color">
+                <input type="text" class="form-control" placeholder="请输入手机号">
+              </div>
+            </div>
+            <div class="form-item clearfix">
+              <div class="left pull-l">电子邮箱</div>
+              <div class="right pull-r theme-txt-color">
+                <input type="text" class="form-control" placeholder="请输入电子邮箱">
+              </div>
+            </div>
+            <div class="form-item clearfix">
+              <div class="left pull-l">辅助功能</div>
+              <div class="right pull-r">
+                <ul class="clearfix" id="j-assistList">
+                  <li class="assist-item checkbox pull-l">
+                    <span>短信提醒</span>
+                    <span class="checked"></span>
+                  </li>
+                  <li class="assist-item checkbox pull-l">
+                    <span>邮箱提醒</span>
+                    <span class="checked"></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="form-item clearfix">
+              <div class="left pull-l">支付金额</div>
+              <div class="right pull-r" style="color: #f00;">100元</div>
+            </div>
+          </div>
+          <div class="banner pull-r">
+            <h2 class="title">商户信息</h2>
+            <div class="desc">
+              <div class="item">店铺名称：飞天猪猪侠</div>
+              <div class="item">商品类型：数字卡密</div>
+              <div class="item">发货方式：自动发货</div>
+              <div class="item">商家 QQ：604517444</div>
+            </div>
+            <p class="hint">商品问题请及时联系卖家解决</p>
+          </div>
+        </div>
+
+        <div class="section step2 clearfix">
+          <h2 class="section-title">
+            <span class="num">02</span>支付方式
+          </h2>
+          <div class="form-group pull-l">
+            <div class="form-group">
+              <div class="form-item clearfix">
+                <div class="left pull-l">支付方式</div>
+                <div class="right pull-r">
+                  <ul class="pay-list" id="j-payList">
+                    <li class="pay-item checkbox clearfix">
+                      <img class="pay-icon icon-wx pull-l" src="./img/icon-wx.png" alt="">
+                      <span class="pay-name pull-l">微信支付</span>
+                      <span class="checked"></span>
+                    </li>
+                    <li class="pay-item checkbox clearfix">
+                      <img class="pay-icon icon-ali pull-l" src="./img/icon-ali.png" alt="">
+                      <span class="pay-name pull-l">支付宝支付</span>
+                      <span class="checked"></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="qrcode pull-r">
+            <div class="code">
+              <img src="./img/qrcode.png" alt="">
+            </div>
+            <p class="hint">使用手机扫描二维码购买</p>
+          </div>
+        </div>
+
+        <div class="btn-pay" id="j-ensurePay">确认支付</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mask"></div>
+  <div class="popup popup-order-detail">
+    <p class="popup-title">订单详情</p>
+    <div class="popup-content">
+      <div class="item clearfix">
+        <span class="name pull-l">商品名称：</span>
+        <span class="value pull-l">绝地求生</span>
+      </div>
+      <div class="item clearfix">
+        <span class="name pull-l">订单编号：</span>
+        <span class="value pull-l">6541384313584</span>
+      </div>
+      <div class="item clearfix">
+        <span class="name pull-l">支付金额：</span>
+        <span class="value pull-l">100.00元</span>
+      </div>
+      <div class="item clearfix">
+        <span class="name pull-l">购买数量：</span>
+        <span class="value pull-l">1</span>
+      </div>
+      <div class="item clearfix">
+        <span class="name pull-l">联系手机：</span>
+        <span class="value pull-l">15995283697</span>
+      </div>
+      <div class="item clearfix">
+        <span class="name pull-l">联系邮箱：</span>
+        <span class="value pull-l">604517444@qq.com</span>
+      </div>
+      <div class="item clearfix">
+        <span class="name pull-l">支付方式：</span>
+        <span class="value pull-l">支付宝</span>
+      </div>
+      <div class="item clearfix">
+        <span class="name pull-l">辅助功能：</span>
+        <span class="value pull-l">开启短信提醒（0.1元）</span>
+      </div>
+
+      <div class="btn-group clearfix">
+        <div class="btn-modify pull-l" id="j-modifyOrder">修改订单</div>
+        <a class="btn-buy pull-r" href="./orderResult.html">立即付款</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">备案号</div>
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/buy.js"></script>
+</body>
+</html>

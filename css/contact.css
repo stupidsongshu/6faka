@@ -1,0 +1,44 @@
+.main-content .card-group .card {
+  width: 370px;
+  height: 314px;
+  padding-top: 60px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: all 300ms;
+}
+.main-content .card-group .card2 {
+  margin-left: 46px;
+}
+.main-content .card-group .card:hover {
+  transform: translate(0, -10px);
+}
+.main-content .card-group .card .txt {
+  margin: 30px 0;
+}
+.main-content .card-group .card .txt-line {
+  text-align: center;
+}
+.main-content .card-group .card .txt-line .line {
+  display: inline-block;
+  width: 86px;
+  height: 3px;
+  margin: 0;
+  background-color: #999;
+}
+
+.follow-us {
+  position: relative;
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+}
+.follow-us .main-titile {
+  position: static;
+  transform: none;
+  text-align: center;
+}
+.follow-us .qr-code {
+  margin-top: 36px;
+}

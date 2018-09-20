@@ -1,0 +1,71 @@
+.query-wrapper {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.query-wrapper .query-condition {
+  padding: 50px 56px 20px 70px;
+}
+.query-wrapper .query-condition ::placeholder {
+  font-size: 18px;
+  color: #999;
+}
+.query-wrapper .query-item {
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #333;
+}
+.query-wrapper .query-item .name {
+  line-height: 50px;
+}
+.query-wrapper .query-item .input {
+  width: 850px;
+  height: 50px;
+  padding: 0 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #e0e0e0;
+}
+.query-wrapper .query-item .textarea {
+  width: 850px;
+  height: 260px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #e0e0e0;
+}
+.query-wrapper .query-item .value {
+  padding-left: 10px;
+  line-height: 50px;
+}
+.query-wrapper .query-condition .btn-query {
+  display: inline-block;
+  height: 75px;
+  margin-top: 38px;
+  margin-bottom: 28px;
+  font-size: 24px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.query-wrapper .query-condition .hint {
+  display: inline-block;
+  font-size: 16px;
+  color: #f00;
+}
+
+.query-wrapper .query-result {
+  display: none;
+  padding: 50px 56px 20px 70px;
+}
+.query-wrapper .query-result .kami-list {
+  color: #f00;
+}
+
+.query-wrapper .top-title {
+  height: 100px;
+  padding-left: 50px;
+  line-height: 100px;
+  font-size: 26px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #333;
+}

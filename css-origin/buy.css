@@ -29,9 +29,7 @@
   height: 34px;
   top: -32px;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   overflow: hidden;
   font-size: 44px;
   color: #e0e0e0;
@@ -93,12 +91,8 @@
 }
 
 .main-content .section .form-group .form-item .pay-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   width: 290px;
   height: 75px;
   padding-left: 25px;

@@ -6,18 +6,6 @@
 .query-wrapper .query-condition {
   padding: 50px 56px 20px 70px;
 }
-.query-wrapper .query-condition ::-webkit-input-placeholder {
-  font-size: 18px;
-  color: #999;
-}
-.query-wrapper .query-condition :-ms-input-placeholder {
-  font-size: 18px;
-  color: #999;
-}
-.query-wrapper .query-condition ::-ms-input-placeholder {
-  font-size: 18px;
-  color: #999;
-}
 .query-wrapper .query-condition ::placeholder {
   font-size: 18px;
   color: #999;
